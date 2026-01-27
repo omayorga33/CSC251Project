@@ -10,7 +10,7 @@ public class Policy
    private double height;        // inches
    private double weight;        // pounds
 
-   // no-arg constructor (default values)
+   // no-arg constructor
    public Policy()
    {
       policyNumber = 0;
