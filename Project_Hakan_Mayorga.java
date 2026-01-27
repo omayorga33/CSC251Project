@@ -7,7 +7,6 @@ public class Project_Hakan_Mayorga
    {
       Scanner keyboard = new Scanner(System.in);
 
-      // Force dot-decimal input like 62.0 and 250.5
       keyboard.useLocale(Locale.US);
 
       int policyNumber = getPolicyNumber(keyboard);
@@ -114,7 +113,6 @@ public class Project_Hakan_Mayorga
       return weight;
    }
 
-   // --- helper input methods (prevents InputMismatchException) ---
 
    public static int readInt(Scanner keyboard)
    {
@@ -144,7 +142,6 @@ public class Project_Hakan_Mayorga
 
    public static void displayPolicy(Policy p)
    {
-      // Force dot-decimal output formatting too
       Locale current = Locale.getDefault();
       Locale.setDefault(Locale.US);
 
